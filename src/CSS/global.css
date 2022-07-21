@@ -1,0 +1,28 @@
+body{
+    font-family: Montserrat;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main{
+    display:flex;
+    justify-content: center;
+    margin: auto;
+    
+    
+    
+}
+
+section{
+    display:flex;
+    
+}
+
+
+
+.attribution {
+    color: hsl(228, 45%, 44%);
+    font-size: 11px;
+    text-align: center;
+    align-items: flex-end;
+}
+

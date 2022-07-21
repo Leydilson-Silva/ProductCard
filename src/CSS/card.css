@@ -1,0 +1,89 @@
+.card {
+    display: flex;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    width: 50em;
+    height: 60%;
+    border-radius: 17px;
+
+}
+
+.imagens .desktop {
+    width: 55;
+    max-height: 100%;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+.card h1,
+.preco {
+    font-family: Fraunces;
+
+}
+
+
+.detalhes {
+    display: flex;
+    width: 50%;
+
+    padding: 2em;
+    flex-direction: column;
+
+}
+
+h2 {
+    color: hsl(228, 12%, 48%);
+    letter-spacing: .3rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.nomeProduto {
+    margin-top: 30px;
+    color: hsl(212, 21%, 14%);
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.descricao {
+    margin-top: 30px;
+    line-height: 28px;
+    letter-spacing: 1px
+}
+
+s {
+    font-size: 15px;
+    margin-left: 50px;
+    color: hsl(228, 12%, 48%);
+}
+
+.preco {
+    display: flex;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.addcart {
+    padding: 1.5rem 0rem;
+    color: white;
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 50px;
+    gap: 10px;
+    text-decoration: none;
+
+}
+
+.addcart:hover {
+    background-color: hsl(158, 35%, 25%);
+}
